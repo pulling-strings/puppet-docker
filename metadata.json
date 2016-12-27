@@ -1,12 +1,12 @@
 {
-  "name": "strings-docker",
+  "name": "puppet-docker",
   "version": "1.0.0",
   "author": "Ronen Narkis",
   "summary": "Module for installing and managing docker",
   "license": "Apache-2.0",
-  "source": "https://github.com/pulling-strings/strings-docker",
-  "project_page": "https://github.com/pulling-strings/strings-docker",
-  "issues_url": "https://github.com/pulling-strings/strings-docker",
+  "source": "https://github.com/pulling-strings/puppet-docker",
+  "project_page": "https://github.com/pulling-strings/puppet-docker",
+  "issues_url": "https://github.com/pulling-strings/puppet-docker",
   "operatingsystem_support": [{
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
