@@ -7,18 +7,13 @@
   "source": "https://github.com/pulling-strings/strings-docker",
   "project_page": "https://github.com/pulling-strings/strings-docker",
   "issues_url": "https://github.com/pulling-strings/strings-docker",
-  "operatingsystem_support": [
-    ,,{
+  "operatingsystem_support": [{
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
         "16.04"
       ]
     }],
   "requirements": [
-    {
-      "name": "pe",
-      "version_requirement": "3.7"
-    },
     {
       "name": "puppet",
       "version_requirement": "3.8"
