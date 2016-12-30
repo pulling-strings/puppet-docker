@@ -1,0 +1,11 @@
+{
+  "name": "puppet-docker",
+  "version": "0.1.0",
+  "author": "narkisr",
+  "summary": "Simple working docker setup on Ubuntu 16.x",
+  "license": "Apache 2.0",
+  "source": "https://github.com/narkisr/puppet-docker",
+  "project_page": "https://github.com/narkisr/puppet-docker",
+  "issues_url": "https://github.com/narkisr/puppet-docker/issues"
+}
+
