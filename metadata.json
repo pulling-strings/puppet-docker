@@ -6,6 +6,7 @@
   "license": "Apache 2.0",
   "source": "https://github.com/narkisr/puppet-docker",
   "project_page": "https://github.com/narkisr/puppet-docker",
-  "issues_url": "https://github.com/narkisr/puppet-docker/issues"
+  "issues_url": "https://github.com/narkisr/puppet-docker/issues",
+  "dependencies": []
 }
 
