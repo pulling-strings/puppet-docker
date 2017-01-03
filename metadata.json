@@ -7,6 +7,8 @@
   "source": "https://github.com/narkisr/puppet-docker",
   "project_page": "https://github.com/narkisr/puppet-docker",
   "issues_url": "https://github.com/narkisr/puppet-docker/issues",
-  "dependencies": []
+  "dependencies": [
+    {"camptocamp/puppet-systemd":"0.4.0"}
+   ]
 }
 

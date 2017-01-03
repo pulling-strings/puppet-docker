@@ -5,7 +5,7 @@ Setting up Docker on Ubuntu 16.x
 # Usage
 
 
-Installing vagrant:
+Installing Docker:
 ```puppet
   include docker
 ```

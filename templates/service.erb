@@ -1,0 +1,13 @@
+[Unit]
+Description = <%= @service %>  container
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run --name <%= @service %> <%= @service %>
+ExecStop=/usr/bin/docker stop -t 2 <%= @service %>
+ExecStopPost=/usr/bin/docker rm -f <%= @service %>
+
+[Install]
+WantedBy=default.target
