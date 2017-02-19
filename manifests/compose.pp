@@ -7,11 +7,12 @@ class docker::compose {
   exec{'install docker-compose':
     command => "curl -L 'https://github.com/docker/compose/releases/download/${version}/docker-compose-Linux-x86_64' -o ${target}",
     user    => 'root',
-    path    => ['/usr/bin','/bin',]
+    path    => ['/usr/bin','/bin'],
+    unless  => "test -f ${target}"
   } ->
 
   file{'/usr/local/bin/docker-compose':
     mode  => '+x'
-  }   
+  }
 
 }
